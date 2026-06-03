@@ -1,4 +1,10 @@
-var num1 = "26";
-var num2 = "25";
-//var soma = ("num1+num2");
-console.log(num1, num2);
+const prompt = require("prompt sync")();
+let valor = prompt("Digite um valor: ");
+
+console.log("valor digitado: " + valor);
+
+let valor1 = prompt("Digite outro valor: ");
+console.log("valor digitado: " + valor1);
+
+
+
